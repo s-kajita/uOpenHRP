@@ -8,7 +8,7 @@ ToRad = pi/180;
 
 global uLINK
 
-uLINK = LoadHRPdata('HRP2KAImain.wrl');
+uLINK = LoadHRPdata('/usr/local/share/OpenHRP-3.1/robot/HRP2KAI/model/HRP2KAImain.wrl');
 SetJointID_Constant;
 
 
